@@ -73,3 +73,4 @@ full_input_scaled = scaler.transform(full_input_data)
 if st.button("Estimate Premium"):
     premium_price = model.predict(full_input_scaled)
     st.write(f"Estimated Premium: ₹{premium_price[0]:,.2f}")
+

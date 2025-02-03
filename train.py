@@ -68,3 +68,4 @@ best_rf.fit(X_train_scaled, y_train)
 # Save the best Random Forest model and scaler
 joblib.dump((best_rf, scaler), "random_forest_model.pkl")
 print("Random Forest model and scaler saved successfully!")
+
